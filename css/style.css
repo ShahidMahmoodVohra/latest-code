@@ -1,0 +1,32 @@
+ *{background-color:lightgray}
+
+h1{
+    font-size:24px;
+    color:red;
+}
+
+/* p,h1{color: green !important;} /*if you mark !important its high priority function */
+/*p,h1{color: red; font-size: 20px; border: 2px;} */
+/* .Structure1
+{color:blue;
+     border-color:rgb(190, 173, 230);
+     border-width: 10px;
+    border-style:solid ;
+border-radius:0px 20px 20px 20px;}
+.Structure2{color: #0000ff;}   
+.lists1{color: blueviolet;} 
+.lists2{color: red;}
+.links1{color:blue;
+border:lightsteelblue solid 5px;
+border-radius: 0 20px 20px 20px;}
+.links2{color:red;
+border:lightpink solid 4px;
+border-radius: 20px 20px 20px 0px;}
+.links3{color: red; }
+.links4{color:maroon;}
+.image{color: maroon; font-size: 25px;}
+.table{color:olive; font-size: 25px;}
+.table1{color:olivedrab;font-size: 15px;}
+.table2{color: red; font-size: 20px;}
+.forms1{color: maroon; font-size: 25px;}
+.forms2{color: mediumblue;} */
