@@ -1,32 +1,167 @@
- *{background-color:lightgray}
 
-h1{
-    font-size:24px;
-    color:red;
+
+.h11,.h21{ 
+    font-family: Arial, verdana,  sans-serif;
+    background-color: rgb(250,250,250);
+    color:#ee3e80;
+}
+.p11{
+    font-family: Arial, verdana,  sans-serif;
+    font-size: 18px;
+    color:#665544;
+}
+.h33{
+    color:rgb(255,255,255);
+}
+.p33{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(185, 179, 175);
+    font-size: large;
+    
+}    
+body{ 
+    font-family: Arial, verdana, sans-serif;
+    color:#665544;
+    padding: 10px;
+
+} 
+.page10{
+    border: 1px solid #665544;
+    background-color: #efefef;
+    padding: inherit;
+}
+.color1{
+    color:darkcyan
+}
+.color2{
+    color:#ee3e80;
+   
+}
+.color3{
+    color:rgb(100, 100, 90);
+} 
+
+.color4{
+    background-color:rgb(200,200,200);
+}
+.color5{
+  background-color: darkcyan;
+  color:white; 
+  font-weight: bold;
+
+  
+}
+.color6{
+    background-color: #ee3e80;
+    color: white;
+    font-weight: bold;
+}
+.color7{
+    background-color: white;}
+
+.text1{
+   font-family: 'Times New Roman', Times, serif;
+ 
+  background-color: rgb(225, 225, 225);
+}
+.text2{
+    color: rgba(10,76,153,0.8);
+    
+}
+.text3{
+    color:rgba(0,102,204,0.8);
+    font-family: 'Courier New', Courier, monospace;
+}
+.text4{
+    color: black;
+}
+.text5{
+    color:rgba(0,102,204,0.8) ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.texttransform1{
+    background-color: beige;
+    line-height: 1.5em;
 }
 
-/* p,h1{color: green !important;} /*if you mark !important its high priority function */
-/*p,h1{color: red; font-size: 20px; border: 2px;} */
-/* .Structure1
-{color:blue;
-     border-color:rgb(190, 173, 230);
-     border-width: 10px;
-    border-style:solid ;
-border-radius:0px 20px 20px 20px;}
-.Structure2{color: #0000ff;}   
-.lists1{color: blueviolet;} 
-.lists2{color: red;}
-.links1{color:blue;
-border:lightsteelblue solid 5px;
-border-radius: 0 20px 20px 20px;}
-.links2{color:red;
-border:lightpink solid 4px;
-border-radius: 20px 20px 20px 0px;}
-.links3{color: red; }
-.links4{color:maroon;}
-.image{color: maroon; font-size: 25px;}
-.table{color:olive; font-size: 25px;}
-.table1{color:olivedrab;font-size: 15px;}
-.table2{color: red; font-size: 20px;}
-.forms1{color: maroon; font-size: 25px;}
-.forms2{color: mediumblue;} */
+.texttransform2{
+    text-transform: uppercase;
+    color: burlywood;
+}
+.texttransform3{
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.texttransform4{
+    text-transform: lowercase;
+    text-decoration: overline;
+
+}
+.line{
+    line-height: 1.6em;
+}
+
+.letterspacing1{
+    text-transform: uppercase;
+    letter-spacing: .25em;
+}
+
+.wordspacing1{
+    text-transform: capitalize;
+    word-spacing: 1em;
+}
+
+.textalign1{
+    text-align: left;
+}
+
+.textalign2{
+    text-align: justify;
+}
+
+.textalign3{
+    text-align: right;
+}
+
+.verticalalign1{
+    vertical-align: text-top;
+}
+
+.verticalalign2{
+    vertical-align:middle;
+  
+}
+
+.verticalalign3{
+    vertical-align: text-bottom;
+}
+
+.verticalalign4{
+    text-align: center;
+
+} 
+
+.textindent1{
+    background-image:url("../images/butterfly.jpg");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+.textshadow1{
+    text-shadow: 1px 2px 0.50px rgb(255, 0, 0); 
+}
+
+.textshadow2{
+   
+    background-color: #aaaaaa;
+    color: #ffffff;
+    text-shadow: -1px -1px #6666;
+}
+
+p::first-letter{
+    font-size: 200%;    
+
+}
+p::first-line{
+    font-weight: bold;
+}
