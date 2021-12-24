@@ -1,6 +1,6 @@
 
 
-.h11,.h21{ 
+/* .h11,.h21{  
     font-family: Arial, verdana,  sans-serif;
     background-color: rgb(250,250,250);
     color:#ee3e80;
@@ -165,3 +165,78 @@ p::first-letter{
 p::first-line{
     font-weight: bold;
 }
+.link1{
+    color: #ee3e80;
+}
+
+a:link{
+    color: #ee3e80;
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active{
+    color: darkcyan;
+}
+
+
+
+.input1 {
+    padding: 6px 12px 6px 12px;
+    border: 1px solid #665544;
+    color: #ffffff;}
+    .input2:hover {
+    background-color: #665544;}
+    .input5:focus {
+        color: #665544;}
+    .input3:active {
+    background-color: chocolate;}
+
+.box1{
+    height:300px;
+    width:300px;
+    background-color: #ee3e80;
+}
+
+.box2{
+    height: 75%;
+    width: 75%;
+    background-color: #0088dd;
+}*/
+
+.table1{ 
+text-align: justify;
+ border-bottom: 2px solid lightblue;
+ color: lightblue;
+}
+
+.table2{
+text-align: left;
+min-width: 250px;
+max-width: 450;
+padding: 5px;
+margin-left: 0px;
+vertical-align: top;
+
+}
+
+.table3{ 
+   
+    text-align: justify;
+    vertical-align: top;
+
+}
+
+.table4{
+    margin: 200px;
+}
+    
+    
