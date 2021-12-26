@@ -1,6 +1,5 @@
 
-
-/* .h11,.h21{  
+  .h11,.h21{   
     font-family: Arial, verdana,  sans-serif;
     background-color: rgb(250,250,250);
     color:#ee3e80;
@@ -165,8 +164,10 @@ p::first-letter{
 p::first-line{
     font-weight: bold;
 }
+
+
 .link1{
-    color: #ee3e80;
+    color:purple;
 }
 
 a:link{
@@ -175,7 +176,7 @@ a:link{
 }
 
 a:visited{
-    color:black;
+    color:orangered;
 }
 
 a:hover{
@@ -210,7 +211,7 @@ a:active{
     height: 75%;
     width: 75%;
     background-color: #0088dd;
-}*/
+}
 
 .table1{ 
 text-align: justify;
@@ -220,9 +221,9 @@ text-align: justify;
 
 .table2{
 text-align: left;
-min-width: 250px;
-max-width: 450;
-padding: 5px;
+min-width: 450px;
+max-width: 650;
+padding: 2px;
 margin-left: 0px;
 vertical-align: top;
 
@@ -239,4 +240,84 @@ vertical-align: top;
     margin: 200px;
 }
     
+.one{
+    overflow: hidden;
+    min-width: 250px;
+    max-width: 450px;
+    margin: auto;
     
+
+}    
+.two{
+    overflow: scroll;
+    min-width: 250px;
+    max-width: 450px;
+    margin: auto;
+}
+.three{
+
+    border-bottom: 2px solid lightskyblue;
+    min-width: 250px;
+    max-width: 450px;
+    margin: auto;
+    color: rgba(45, 53, 100, 0.733);
+    
+
+}
+
+.borderpiana1{
+    border: 2px  solid peru;
+    margin: auto;
+    padding: 10px;
+    max-width: 200px;
+    min-width: 100px;
+    color: rgb(255, 0, 0);
+}
+.borderpiana2{
+    border:3px dotted purple;
+    width: 200px;
+    color: rosybrown;
+}
+.borderpiana3{
+    border:4px dashed seagreen;
+    width: max-content;
+    color: slategrey;
+    margin: auto;
+}
+.borderpiana4{
+    border:5px double tomato;
+    width: 225px;
+    margin-left: auto;
+    color: yellow;
+}
+.borderpiana5{
+    border:6px groove aqua;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    color: blue;
+}
+.borderpiana6{
+    border: 7px ridge crimson;
+    mask-border-width: 20px;
+    color: cyan;
+    width: 250px;
+    text-align: right;
+    margin: auto;
+}
+.borderpiana7{
+    border: 2px inset darkgoldenrod;
+    width: 275px;
+    color: darkseagreen;
+    text-align: center;
+    padding: 5px;
+    
+}
+.borderpiana8{
+    border:2px outset yellow;
+    width: 350px;
+    color: rgb(255, 0, 0);
+    margin: auto;
+    text-align: center;
+    padding: auto;
+}
