@@ -81,3 +81,56 @@ text-decoration: none;
   }
 
   /* contact page end */
+  /* Registration page start */
+  .form-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem !important;
+    padding-bottom: 10rem;
+    background-color: var(--grey);
+  }
+  .form-container form{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px  rgba(0,0,0,0.5);
+    background: var(--white);
+    text-align: center;
+    width: 500px;
+  }
+  .form-container form h3{
+    font-size: 30px;
+    color: var(--grey);
+    text-transform: capitalize;
+  }
+  
+  .form-container form input{
+    font-size: 15px;
+   width: 100%;
+   padding: 10px 15px;
+   margin: 8px 0px;
+   background: var(--optional);
+   border-radius: 5px;
+
+  }
+.form-container form .form-btn{
+  display: inline-block;
+  border: 2px solid var(--grey);
+  padding: 10px 25px;
+  font-size: 20px;
+  color: var(--white);
+  border-radius: 5px;
+  background-color: crimson;
+  text-transform: capitalize;
+  cursor: pointer;
+  
+}
+.form-container form .form-btn:hover{
+  color: var(--grey);
+
+}
+
+
+
+  /* Registration page end */
